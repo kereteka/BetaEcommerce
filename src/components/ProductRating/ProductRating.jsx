@@ -1,8 +1,7 @@
-import { Typography, Rating, useTheme } from "@mui/material";
+import { Typography, Rating } from "@mui/material";
 
+// eslint-disable-next-line react/prop-types
 const ProductRating = ({ value }) => {
-  const theme = useTheme();
-
   return (
     <Typography
       gutterBottom

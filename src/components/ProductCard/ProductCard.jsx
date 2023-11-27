@@ -1,5 +1,3 @@
-// ProductCard.js
-
 import {
   Card,
   CardContent,
