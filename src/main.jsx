@@ -4,7 +4,7 @@ import "./index.css";
 import { ThemeProvider } from "@mui/material";
 import theme from "./components/theme/theme.js";
 import { Provider } from "react-redux";
-import store from "./App/store.js";
+import store from "./app/store.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <ThemeProvider theme={theme}>
