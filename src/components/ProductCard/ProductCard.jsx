@@ -32,8 +32,6 @@ const ProductCard = ({ product }) => {
 
   let foundData = data?.find((item) => item.productId === id);
 
-  console.log(foundData, "foundData");
-
   const handleSubtractFromCart = async () => {
     if (!isFetching) {
       await subtractFromCart(id);

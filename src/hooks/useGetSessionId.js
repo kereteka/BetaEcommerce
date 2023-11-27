@@ -23,7 +23,6 @@ const useGetSessionId = () => {
               setIsError(true);
             } else {
               const newData = await response.text();
-              console.log(newData, "response");
               if (!storedSessionId || !sessionId) {
                 setSessionId(newData);
                 sessionStorage.setItem("sessionId", newData);
